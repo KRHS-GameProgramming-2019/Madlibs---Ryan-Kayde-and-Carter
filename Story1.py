@@ -7,6 +7,8 @@ def Story1(debug = False):
     friendName1 = getWord("Enter a name: ", debug)
     sport1 = getSport("Enter a sport: ", debug)
     adjective1 = getAdjective("Enter an adjective: ", debug)
+    adjective2 = getAdjective("Enter an adjective: ", debug)
+    
     
     out = "\n"
     out += "One day me and my friend, " + friendName1
@@ -15,6 +17,8 @@ def Story1(debug = False):
     out += "We were having so much fun!"
     out += "\n"
     out += "Unfortunately, the ground was " + adjective1
+    out += "\n"
+    out += "This made our game " + adjective2
     
     
     
