@@ -124,6 +124,26 @@ swearList = ["poop",
              "booty hole",
              "butt",
              "butthole",
+             "nigger",
+             "fuck",
+             "penis",
+             "dick",
+             "beef whistle",
+             "pork sword",
+             "vagina",
+             "pussy",
+             "meat curtains",
+             "cunt",
+             "roast beef wallet",
+             "bitch",
+             "karen",
+             "big k",
+             "kkk",
+             "douche",
+             "douche bag",
+             "shit bag",
+             
+             
              
             
 ]
@@ -164,5 +184,5 @@ def getAdjective(prompt, debug = False):
             print ("Don't use language like that")
         elif word.lower() not in adjective:
             goodInput = False
-            print ("That's not an adjective brother, again")
+            print ("I don't know that adjective try again")
     return word
