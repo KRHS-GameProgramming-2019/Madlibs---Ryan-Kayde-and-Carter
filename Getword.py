@@ -209,6 +209,15 @@ def getPlace(prompt, debug = False):
              "paris",
              "best buy",
              "store",
+             "taco bell",
+             "bed bath and beyond",
+             "hospital",
+             "kmart",
+             "tj maxx",
+             "dicks sporting goods",
+             "dick's",
+             "bjs",
+             
     
     ]
     
@@ -230,7 +239,35 @@ def getFood(prompt, debug = False):
     goodInput = False
     
     food = ["pizza",
-            
+            "burger",
+            "spaghetti",
+            "sandwich",
+            "turkey sandwich",
+            "ham sandwich",
+            "ice cream",
+            "ben and jerry's tonight dough",
+            "ben and jerry's",
+            "chips",
+            "cheez itz",
+            "fried chicken",
+            "chicken",
+            "waffles",
+            "pancakes",
+            "chocolate",
+            "tacos",
+            "burritos",
+            "cinnamon rolls",
+            "m'n'ms",
+            "french fries",
+            "brownies",
+            "cake",
+            "cupcakes",
+            "cleanex",
+            "bleach",
+            "tide pods",
+            "dog",
+            "cat",
+            "stromboli",       
     
     ]
     
@@ -243,4 +280,26 @@ def getFood(prompt, debug = False):
         elif word.lower() not in food:
             goodInput = False
             print ("I don't know that food try again")
+    return word
+    
+    
+    
+def getYou(prompt, debug = False):
+    if debug: print("getFood Function")
+    
+    goodInput = False
+    
+    youtuber = ["smosh",      
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in youtuber:
+            goodInput = False
+            print ("I don't know that youtuber try again")
     return word

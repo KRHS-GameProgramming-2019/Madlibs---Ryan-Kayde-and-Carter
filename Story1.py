@@ -7,9 +7,15 @@ def Story1(debug = False):
     friendName1 = getWord("Enter a name: ", debug)
     sport1 = getSport("Enter a sport: ", debug)
     adjective1 = getAdjective("Enter an adjective: ", debug)
-    adjective2 = getAdjective("Enter an adjective: ", debug)
+    adjective2 = getAdjective("Enter another adjective: ", debug)
     place1 = getPlace("Enter a place: ", debug)
+    place2 = getPlace("Enter another place: ", debug)
     food1 = getFood("Enter a food: ", debug)
+    youtuber1 = getYou("Enter a youtuber: ", debug)
+    
+    
+    
+    
     
     
     out = "\n"
@@ -22,9 +28,13 @@ def Story1(debug = False):
     out += "\n"
     out += "This made our game " + adjective2
     out += "\n"
-    out += "Afterwards, we drove to " + place1
+    out += "Afterwards, we crawled to " + place1
     out += "\n"
     out += "We bought " + food1
+    out += "\n"
+    out += "We went back to my " + place2
+    out += " and watched my favorite youtuber, " + youtuber1
+    
 
     
     
