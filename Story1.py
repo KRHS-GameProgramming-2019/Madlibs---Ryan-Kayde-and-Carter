@@ -19,6 +19,15 @@ def Story1(debug = False):
     out += "Unfortunately, the ground was " + adjective1
     out += "\n"
     out += "This made our game " + adjective2
+    out += "\n"
+    out += "
+    out += "\n"
+    out += "
+    out += "\n"
+    out += "
+    out += "\n"
+    out += "
+    out += "\n"
     
     
     
