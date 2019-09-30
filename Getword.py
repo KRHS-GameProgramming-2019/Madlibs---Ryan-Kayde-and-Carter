@@ -217,6 +217,8 @@ def getPlace(prompt, debug = False):
              "dicks sporting goods",
              "dick's",
              "bjs",
+             "pet smart",
+             
              
     
     ]
@@ -289,7 +291,38 @@ def getYou(prompt, debug = False):
     
     goodInput = False
     
-    youtuber = ["smosh",      
+    youtuber = ["smosh",
+                "t-series",
+                "pewdiepie",
+                "ninja",
+                "myth",
+                "loveliveserve",
+                "the king of random",
+                "the game theorists",
+                "bob ross",
+                "ted-ed",
+                "jontron",
+                "markiplier",
+                "rocketjump",
+                "ben phillips",
+                "good mythical morning",
+                "mismag822",
+                "ryan higa",
+                "nigahiga",
+                "the men who do nothing",
+                "game grumps",
+                "the grumps",
+                "hellthy junkfood",
+                "unbox therapy",
+                "minecraft",
+                "nintendo",
+                "brackeys",
+                "blackthornprod",
+                "cody ko",
+                "noel miller",
+                "dani",
+            
+                
     
     ]
     
