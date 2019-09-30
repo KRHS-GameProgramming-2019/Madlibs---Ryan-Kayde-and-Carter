@@ -8,6 +8,8 @@ def Story1(debug = False):
     sport1 = getSport("Enter a sport: ", debug)
     adjective1 = getAdjective("Enter an adjective: ", debug)
     adjective2 = getAdjective("Enter an adjective: ", debug)
+    place1 = getPlace("Enter a place: ", debug)
+    food1 = getFood("Enter a food: ", debug)
     
     
     out = "\n"
@@ -20,14 +22,10 @@ def Story1(debug = False):
     out += "\n"
     out += "This made our game " + adjective2
     out += "\n"
-    out += "
+    out += "Afterwards, we drove to " + place1
     out += "\n"
-    out += "
-    out += "\n"
-    out += "
-    out += "\n"
-    out += "
-    out += "\n"
+    out += "We bought " + food1
+
     
     
     
