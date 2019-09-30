@@ -186,3 +186,61 @@ def getAdjective(prompt, debug = False):
             goodInput = False
             print ("I don't know that adjective try again")
     return word
+
+
+def getPlace(prompt, debug = False):
+    if debug: print("getPlace Function")
+    
+    goodInput = False
+    
+    place = ["walmart",
+             "house",
+             "home",
+             "school",
+             "target",
+             "mcdonalds",
+             "burger king",
+             "pizza chef",
+             "market basket",
+             "frenchs park",
+             "french's park",
+             "wendys",
+             "dunkin donuts",
+             "paris",
+             "best buy",
+             "store",
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in place:
+            goodInput = False
+            print ("I don't know that place try again")
+    return word
+
+
+def getFood(prompt, debug = False):
+    if debug: print("getFood Function")
+    
+    goodInput = False
+    
+    food = ["pizza",
+            
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in food:
+            goodInput = False
+            print ("I don't know that food try again")
+    return word
