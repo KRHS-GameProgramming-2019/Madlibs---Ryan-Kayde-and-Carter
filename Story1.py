@@ -36,6 +36,8 @@ def Story1(debug = False):
     out += " and watched my favorite youtuber, " + youtuber1
     out += "\n"
     out += "My friend however, wanted to watch " + youtuber2
+    out += "\n"
+    out += "We decided to play " + videoGame1 " instead."
     
 
     
