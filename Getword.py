@@ -173,6 +173,7 @@ def getAdjective(prompt, debug = False):
                  "dry",
                  "weak",
                  "strong",
+
     
     ]
     
