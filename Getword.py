@@ -321,6 +321,14 @@ def getYou(prompt, debug = False):
                 "cody ko",
                 "noel miller",
                 "dani",
+                "metal jesus rocks",
+                "metaljesusrocks",
+                "ifht films",
+                "gmbn",
+                "ben shapiro",
+                "edp445",
+                "mbest11x",
+                "adam calhoun",
             
                 
     
