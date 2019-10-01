@@ -14,7 +14,7 @@ def TitleScreen(debug = False):
     s += "|                                                                              |\n"
     s += "|                                 K a d e n  S c h u s l e r                   |\n"
     s += "|                                 R y a n  S t . L a w r e n c e               |\n"
-    s += "|                                                                              |\n"
+    s += "|                                 C a r t e r  H a s e y                       |\n"
     s += "|                                                                              |\n"
     s += "--------------------------------------------------------------------------------\n"
     
