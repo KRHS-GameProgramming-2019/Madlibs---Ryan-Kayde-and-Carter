@@ -218,6 +218,8 @@ def getPlace(prompt, debug = False):
              "dick's",
              "bjs",
              "pet smart",
+             "yo mama",
+             "your mama",
              
              
     
@@ -343,4 +345,58 @@ def getYou(prompt, debug = False):
         elif word.lower() not in youtuber:
             goodInput = False
             print ("I don't know that youtuber try again")
+    return word
+    
+    
+    
+def getGame(prompt, debug = False):
+    if debug: print("getFood Function")
+    
+    goodInput = False
+    
+    videogame = ["smash",
+                 "legend of zelda",
+                 "overwatch",
+                 "paladins",
+                 "fortnite",
+                 "minecraft",
+                 "call of duty",
+                 "hearthstone",
+                 "league of legends",
+                 "hotline miami",
+                 "gta",
+                 "mario",
+                 "kirby",
+                 "pac man",
+                 "ms pac man",
+                 "terraria",
+                 "breath of the wild",
+                 "fire emblem",
+                 "mario kart",
+                 "no man's sky",
+                 "animal crossing",
+                 "luigi's mansion",
+                 "pokemon",
+                 "moonlighter",
+                 "guitar hero",
+                 "splatoon",
+                 "splatoon 2",
+                 "star fox",
+                 "star fox zero",
+                 
+                
+            
+                
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in videogame:
+            goodInput = False
+            print ("I don't know that videogame try again")
     return word

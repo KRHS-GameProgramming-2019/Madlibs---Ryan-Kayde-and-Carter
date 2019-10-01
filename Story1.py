@@ -13,6 +13,7 @@ def Story1(debug = False):
     food1 = getFood("Enter a food: ", debug)
     youtuber1 = getYou("Enter a youtuber: ", debug)
     youtuber2 = getYou("Enter another youtuber: ", debug)
+    videoGame1 = getGame("Enter a videogame: ", debug)
     
     
     
@@ -37,7 +38,7 @@ def Story1(debug = False):
     out += "\n"
     out += "My friend however, wanted to watch " + youtuber2
     out += "\n"
-    out += "We decided to play " + videoGame1 " instead."
+    out += "We decided to play " + videoGame1 + " instead."
     
 
     
