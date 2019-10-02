@@ -24,21 +24,7 @@ def Story2(debug = False):
     out += "His name was " + friendName1
     out += "I absolutely " + adjective3 + " him!"
     out += "After that, we " + verb1 + " to " + place1
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
-    out += "
+   
     
 
     
