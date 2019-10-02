@@ -142,6 +142,7 @@ swearList = ["poop",
              "douche",
              "douche bag",
              "shit bag",
+             "fucked",
              
              
              
@@ -400,4 +401,58 @@ def getGame(prompt, debug = False):
         elif word.lower() not in videogame:
             goodInput = False
             print ("I don't know that videogame try again")
+    return word
+
+
+def getVerb(prompt, debug = False):
+    if debug: print("getPlace Function")
+    
+    goodInput = False
+    
+    verb = ["attacked",
+            "destroyed",
+            "crushed",
+            "ran",
+            "locked",
+            "saw",
+            "thought",
+            "licked",
+            "sloppy toppied",
+            "grabbed",
+            "swam",
+            "kicked",
+            "asked",
+            "attached",
+            "questioned",
+            "attacked",
+            "pondered",
+            "smoked",
+            "strolled",
+            "stoned",
+            "baked",
+            "burnt",
+            "located",
+            "creamed",
+            "beat",
+            "smacked",
+            "spanked",
+            "spooked",
+            "slapped",
+            "rocks",
+            "said",
+            "had",
+            "gone",
+            
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in verb:
+            goodInput = False
+            print ("I don't know that verb, try again")
     return word
