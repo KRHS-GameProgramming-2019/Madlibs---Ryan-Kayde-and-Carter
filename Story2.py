@@ -14,16 +14,16 @@ def Story2(debug = False):
     food1 = getFood("Enter a food: ", debug)
     youtuber1 = getYou("Enter a youtuber: ", debug)
     youtuber2 = getYou("Enter another youtuber: ", debug)
+    verb1 = getVerb("Enter a verb: ", debug)
     
     
     
     
-    
-    out = "
+    out = "\n"
     out += "I went to my friend's house earlier"
     out += "His name was " + friendName1
-    out += "I absolutely " + adjective3
-    out += "
+    out += "I absolutely " + adjective3 + " him!"
+    out += "After that, we " + verb1 + " to " + place1
     out += "
     out += "
     out += "

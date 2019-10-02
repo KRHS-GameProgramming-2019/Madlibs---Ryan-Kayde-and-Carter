@@ -21,6 +21,27 @@ def getMenuOption(debug = False):
         option == "Storyone"):
             option = "1"
             goodInput = True
+        elif (option == "2" or 
+        option == "two" or
+        option == "Story2" or
+        option == "StoryTwo" or 
+        option == "Storytwo"):
+            option = "2"
+            goodInput = True
+        elif (option == "3" or 
+        option == "three" or
+        option == "Story3" or
+        option == "StoryThree" or 
+        option == "Storythree"):
+            option = "3"
+            goodInput = True
+        elif (option == "4" or 
+        option == "four" or
+        option == "Story4" or
+        option == "StoryFour" or 
+        option == "Storyfour"):
+            option = "4"
+            goodInput = True
             
         else:
             print("Please make a valid choice")
@@ -142,6 +163,7 @@ swearList = ["poop",
              "douche",
              "douche bag",
              "shit bag",
+             "fucked",
              
              
              
@@ -416,11 +438,6 @@ def getDay(prompt, debug = False):
            "friday",
            "saturday",
            "sunday",
-           
-                 
-                
-            
-                
     
     ]
     
@@ -433,4 +450,60 @@ def getDay(prompt, debug = False):
         elif word.lower() not in day:
             goodInput = False
             print ("I don't know that day try again")
+    return word       
+                 
+                
+            
+                
+def getVerb(prompt, debug = False):
+    if debug: print("getPlace Function")
+    
+    goodInput = False
+    
+    verb = ["attacked",
+            "destroyed",
+            "crushed",
+            "ran",
+            "locked",
+            "saw",
+            "thought",
+            "licked",
+            "sloppy toppied",
+            "grabbed",
+            "swam",
+            "kicked",
+            "asked",
+            "attached",
+            "questioned",
+            "attacked",
+            "pondered",
+            "smoked",
+            "strolled",
+            "stoned",
+            "baked",
+            "burnt",
+            "located",
+            "creamed",
+            "beat",
+            "smacked",
+            "spanked",
+            "spooked",
+            "slapped",
+            "rocks",
+            "said",
+            "had",
+            "gone",
+            
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in verb:
+            goodInput = False
+            print ("I don't know that verb, try again")
     return word

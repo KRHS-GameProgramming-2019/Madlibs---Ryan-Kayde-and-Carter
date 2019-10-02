@@ -1,6 +1,9 @@
 from MadlibsScreens import *
 from Getword import *
 from Story1 import *
+from Story2 import *
+from Story3 import *
+from Story4 import *
 
 
 def Madlibs(debug = False):
@@ -26,15 +29,15 @@ def Madlibs(debug = False):
             print("\n")
             input("Press enter to continue")
         elif choice == "2":
-            print(story2())
+            print(Story2())
             print("\n")
             input("Press enter to continue")
         elif choice == "3":
-            print(story3())
+            print(Story3())
             print("\n")
             input("Press enter to continue")
-         elif choice == "4":
-            print(story4())
+        elif choice == "4":
+            print(Story4())
             print("\n")
             input("Press enter to continue")
 Madlibs(False)
