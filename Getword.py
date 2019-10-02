@@ -290,7 +290,7 @@ def getFood(prompt, debug = False):
     
     
 def getYou(prompt, debug = False):
-    if debug: print("getFood Function")
+    if debug: print("getYou Function")
     
     goodInput = False
     
@@ -351,7 +351,7 @@ def getYou(prompt, debug = False):
     
     
 def getGame(prompt, debug = False):
-    if debug: print("getFood Function")
+    if debug: print("getGame Function")
     
     goodInput = False
     
@@ -400,4 +400,37 @@ def getGame(prompt, debug = False):
         elif word.lower() not in videogame:
             goodInput = False
             print ("I don't know that videogame try again")
+    return word
+    
+    
+    
+def getDay(prompt, debug = False):
+    if debug: print("getDay Function")
+    
+    goodInput = False
+    
+    day = ["monday",
+           "tuesday",
+           "wednesday",
+           "thursday",
+           "friday",
+           "saturday",
+           "sunday",
+           
+                 
+                
+            
+                
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in day:
+            goodInput = False
+            print ("I don't know that day try again")
     return word

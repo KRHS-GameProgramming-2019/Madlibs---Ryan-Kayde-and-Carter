@@ -14,3 +14,28 @@ def Story3(debug = False):
     youtuber1 = getYou("Enter a youtuber: ", debug)
     youtuber2 = getYou("Enter another youtuber: ", debug)
     videoGame1 = getGame("Enter a videogame: ", debug)
+    weekDay1 = getDay("Enter a weekday: ", debug)
+    
+    
+    
+    
+    out = "\n"
+    out += "Today was " + weekDay1
+    out +=  
+    out += "\n"
+    out += 
+    out += "\n"
+    out += 
+    out += "\n"
+    out += 
+    out += "\n"
+    out += 
+    out += "\n"
+    out += 
+    out += "\n"
+    out += 
+    out += 
+    out += "\n"
+    out += 
+    out += "\n"
+    out += 
