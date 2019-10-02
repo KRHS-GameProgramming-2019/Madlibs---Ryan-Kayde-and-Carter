@@ -1,9 +1,6 @@
 from MadlibsScreens import *
 from Getword import *
 from Story1 import *
-from Story2 import *
-from Story3 import *
-from Story4 import *
 
 
 def Madlibs(debug = False):
