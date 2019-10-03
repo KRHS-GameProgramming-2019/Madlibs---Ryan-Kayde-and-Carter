@@ -177,6 +177,18 @@ def getAdjective(prompt, debug = False):
     goodInput = False
     
     adjective = ["juicy",
+                 "sweaty",
+                 "black",
+                 "good",
+                 "new",
+                 "first",
+                 "little",
+                 "able",
+                 "best",
+                 "early",
+                 "easy",
+                 "important",
+                 "hard",
                  "wet",
                  "tall",
                  "short",
@@ -461,6 +473,8 @@ def getVerb(prompt, debug = False):
     goodInput = False
     
     verb = ["attacked",
+            "smiled",
+            "punched",
             "destroyed",
             "crushed",
             "ran",
