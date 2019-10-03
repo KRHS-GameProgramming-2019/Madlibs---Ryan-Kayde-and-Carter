@@ -34,6 +34,8 @@ def Story2(debug = False):
     out += "Afterwards we were both so " + adjective2 + "!"
     out += "\n"
     out += "My mom made us " + food2 + ", it wasn't too good though"
+    out += "\n"
+    out += "" + friendName1 + " never wants to play " + game1 + " anymore"
 
 
     
