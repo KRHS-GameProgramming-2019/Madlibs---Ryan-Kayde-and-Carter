@@ -26,10 +26,6 @@ def Story2(debug = False):
     out += "Then we went back to playing " + game1
     out += "This match was so " + adjective1 + "!"
     out += "Afterwards we were both so " + adjective1 + "!"
-
-    
-
-    
     
     
     return out

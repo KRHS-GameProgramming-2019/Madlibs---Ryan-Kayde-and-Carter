@@ -243,6 +243,7 @@ def getPlace(prompt, debug = False):
              "pet smart",
              "yo mama",
              "your mama",
+             "white house",
              
              
     
@@ -294,7 +295,8 @@ def getFood(prompt, debug = False):
             "tide pods",
             "dog",
             "cat",
-            "stromboli",       
+            "stromboli",
+            "ramen",       
     
     ]
     

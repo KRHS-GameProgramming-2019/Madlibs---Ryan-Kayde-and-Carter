@@ -5,7 +5,6 @@ def Story4(debug = False):
     
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
-    sport1 = getSport("Enter a sport: ", debug)
     adjective1 = getAdjective("Enter an adjective: ", debug)
     adjective2 = getAdjective("Enter another adjective: ", debug)
     adjective3 = getAdjective("Enter another adjective: ", debug)
