@@ -508,4 +508,41 @@ def getVerb(prompt, debug = False):
             print ("I don't know that verb, try again")
     return word
     
-
+def getCharacter(prompt, debug = False):
+    if debug: print("getDay Function")
+    
+    goodInput = False
+    
+    day = ["",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           "",
+           
+        
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in day:
+            goodInput = False
+            print ("I don't know that day try again")
+    return word       
+                 

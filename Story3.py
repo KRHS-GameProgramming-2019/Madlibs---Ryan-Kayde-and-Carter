@@ -5,7 +5,7 @@ def Story3(debug = False):
     
     print("\n")
     weekDay1 = getDay("Enter a weekday: ", debug)
-    marioCharacter1 = getcharacter("Enter a character: ", debug)
+    marioCharacter1 = getCharacter("Enter a character: ", debug)
     
     
     
