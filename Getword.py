@@ -507,3 +507,5 @@ def getVerb(prompt, debug = False):
             goodInput = False
             print ("I don't know that verb, try again")
     return word
+    
+
