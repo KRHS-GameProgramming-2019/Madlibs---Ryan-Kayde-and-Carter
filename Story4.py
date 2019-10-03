@@ -1,7 +1,7 @@
 from Getword import *
 
 def Story2(debug = False):
-    if debug: print("Story1 Function")
+    if debug: print("Story4 Function")
     
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
