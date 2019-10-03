@@ -24,19 +24,19 @@ def Madlibs(debug = False):
         if choice == "q":
             exit();
         elif choice == "1":
-            print(Story1())
+            print(Story1(debug))
             print("\n")
             input("Press enter to continue")
         elif choice == "2":
-            print(Story2())
+            print(Story2(debug))
             print("\n")
             input("Press enter to continue")
         elif choice == "3":
-            print(Story3())
+            print(Story3(debug))
             print("\n")
             input("Press enter to continue")
         elif choice == "4":
-            print(Story4())
+            print(Story4(debug))
             print("\n")
             input("Press enter to continue")
 Madlibs(False)
