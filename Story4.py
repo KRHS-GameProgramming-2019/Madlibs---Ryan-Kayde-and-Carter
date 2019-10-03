@@ -1,6 +1,6 @@
 from Getword import *
 
-def Story2(debug = False):
+def Story4(debug = False):
     if debug: print("Story4 Function")
     
     print("\n")
