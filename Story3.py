@@ -1,7 +1,7 @@
 from Getword import *
 
 def Story3(debug = False):
-    if debug: print("Story1 Function")
+    if debug: print("Story3 Function")
     
     print("\n")
     weekDay1 = getDay("Enter a weekday: ", debug)
