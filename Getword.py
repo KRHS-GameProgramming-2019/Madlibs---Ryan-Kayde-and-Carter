@@ -207,6 +207,7 @@ def getAdjective(prompt, debug = False):
                  "dry",
                  "weak",
                  "strong",
+                 "creamed",
 
     
     ]
@@ -308,7 +309,8 @@ def getFood(prompt, debug = False):
             "dog",
             "cat",
             "stromboli",
-            "ramen",       
+            "ramen",
+            "pie",       
     
     ]
     
