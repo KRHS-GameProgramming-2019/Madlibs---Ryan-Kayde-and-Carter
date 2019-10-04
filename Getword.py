@@ -522,46 +522,48 @@ def getVerb(prompt, debug = False):
             print ("I don't know that verb, try again")
     return word
     
-def getCharacter(prompt, debug = False):
-    if debug: print("getCharacter Function")
+def getWord(prompt, debug = False):
+    if debug: print("getWord Function")
     
     goodInput = False
     
-    character = ["baby daisy",
-                 "baby luigi",
-                 "baby mario",
-                 "baby peach",
-                 "baby rosalina",
-                 "birdo",
-                 "bowser",
-                 "bowser jr.",
-                 "bowser jr",
-                 "cat peach",
-                 "daisy",
-                 "diddy kong",
-                 "donky kong",
-                 "donky kong jr",
-                 "dry bones",
-                 "dry bowser",
-                 "funky kong",
-                 "mario",
-                 "metal mario",
-                 "peach",
-                 "toad",
-                 "yoshi",
-                 "shy guy",
-                 "luigi",
-                 "link",
-                 "koopa",
-                 "koopa troopa",
-                 "king boo",
-                 "wiggler",
-                 "wario",
-                 "walugi",
-                 "",
-                 "",
-                 "",
-                 "",
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        
+    return word     
+
+
+
+
+
+def getTrack(prompt, debug = False):
+    if debug: print("getTrack Function")
+    
+    goodInput = False
+    
+    track = ["baby park",
+             "donut plains 3",
+             "music park",
+             "maple treeway",
+             "koopa troopa beach",
+             "cheese land",
+             "electrodome",
+             "coconut mall",
+             "tick tock clock",
+             "dk junlge parkway",
+             "moo moo meadows",
+             "walugi pinball",
+             "ghost valley 1",
+             "bowser's castle",
+             "rainbow road",
+             "wario stadium",
+             "luigi circuit",
+             "big blue",
+             
                  
            
         
@@ -574,8 +576,58 @@ def getCharacter(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in character:
+        elif word.lower() not in track:
             goodInput = False
-            print ("I don't know that character try again")
-    return word       
+            print ("I don't know that track try again")
+    return word
+    
+    
+    
+    
+    
+def getItem(prompt, debug = False):
+    if debug: print("getItem Function")
+    
+    goodInput = False
+    
+    item = ["coin",
+            "banana",
+            "green shell",
+            "red shell",
+            "fake item box",
+            "triple bananas"
+            "mushroom",
+            "triple shells"
+            "bobomb",
+            "bomb",
+            "blooper",
+            "blue shell",
+            "triple mushrooms",
+            "lucky seven",
+            "golden mushroom",
+            "bullet",
+            "lightning",
+            "star",
+            "fireball",
+            "boomerang",
+            "piranha plant",
+            "super horn",
+            "feather",
+            "boo"
+             
                  
+           
+        
+    
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in item:
+            goodInput = False
+            print ("I don't know that item try again")
+    return word

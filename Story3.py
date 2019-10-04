@@ -5,11 +5,13 @@ def Story3(debug = False):
     
     print("\n")
     weekDay1 = getDay("Enter a weekday: ", debug)
-    marioCharacter1 = getCharacter("Enter a character: ", debug)
-    marioCharacter2 = getCharacter("Enter another character: ", debug)
-    marioCharacter3 = getCharacter("Enter another character: ", debug)
-    marioCharacter4 = getCharacter("Enter another character: ", debug)
-    marioCharacter5 = getCharacter("Enter another character: ", debug)
+    marioCharacter1 = getWord("Enter a character: ", debug)
+    marioCharacter2 = getWord("Enter another character: ", debug)
+    marioCharacter3 = getWord("Enter another character: ", debug)
+    marioCharacter4 = getWord("Enter another character: ", debug)
+    marioCharacter5 = getWord("Enter another character: ", debug)
+    track1 = getTrack("Enter a track: ",debug)
+    item1 = getItem("Enter an item: ",debug)
     
     
     
@@ -20,6 +22,7 @@ def Story3(debug = False):
     out += "Mario Kart day!"
     out += "\n"
     out += "my friends and I got our controllers and selected characters."
+    out += "\n"
     out += "Kaden wanted to play as " + marioCharacter1 + ","
     out += "\n"
     out += "Carter wanted to play as " + marioCharacter2 + ","
@@ -28,7 +31,15 @@ def Story3(debug = False):
     out += "\n"
     out += "Sean wanted to play as " + marioCharacter4 + ","
     out += "\n"
-    out += "I wanted to play as " + marioCharacter5 + "."
+    out += "and I wanted to play as " + marioCharacter5 + "."
+    out += "\n"
+    out += "Once we got our characters ready, I selected the first race, " + track1
+    out += "\n"
+    out += "We were in the middle of lap 3..."
+    out += "\n"
+    out += "The final item box was going to be the deciding factor..."
+    out += "\n"
+    out += "I hit the item box and I pulled a " + item1
     
     
     
