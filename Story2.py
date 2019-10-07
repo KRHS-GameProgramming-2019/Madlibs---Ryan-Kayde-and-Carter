@@ -7,11 +7,13 @@ def Story2(debug = False):
     friendName1 = getWord("Enter a name: ", debug)
     adjective1 = getAdjective("Enter an adjective: ", debug)
     adjective2 = getAdjective("Enter another adjective: ", debug)
+    adjective3 = getAdjective("Enter another adjective: ", debug)
     place1 = getPlace("Enter a place: ", debug)
     food1 = getFood("Enter a food: ", debug)
     food2 = getFood("Enter another food: ", debug)
     verb1 = getVerb("Enter a verb: ", debug)
     verb2 = getVerb("Enter another verb: ", debug)
+    verb3 = getVerb("Enter another verb: ", debug)
     game1 = getGame("Enter a game: ", debug)
     
     
@@ -36,7 +38,13 @@ def Story2(debug = False):
     out += "My mom made us " + food2 + ", it wasn't too good though"
     out += "\n"
     out += "" + friendName1 + " never wants to play " + game1 + " anymore"
-
+    out += "\n"
+    out += "I had to return him to his house, he looked back and said,"
+    out += " 'I " + adjective3 + " you, we aren't friends anymore'"
+    out += "\n"
+    out += "I was " + adjective4 + ", I honestly don't even care though"
+    out += "\n"
+    out += "He is just too salty that I " + verb3
 
     
 
