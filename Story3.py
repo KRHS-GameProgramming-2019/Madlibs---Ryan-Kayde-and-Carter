@@ -12,7 +12,11 @@ def Story3(debug = False):
     marioCharacter5 = getWord("Enter another character: ", debug)
     track1 = getTrack("Enter a track: ",debug)
     item1 = getItem("Enter an item: ",debug)
-    verb1 = getVerb("Enter an verb: ",debug)
+    verb1 = getVerb("Enter a verb: ",debug)
+    verb2 = getVerb("Enter another verb: ",debug)
+    food1 = getFood("Enter a food: ", debug)
+    verb3 = getVerb("Enter another verb: ",debug)
+    place1 = getPlace("Enter a place: ",debug)
     
     
     
@@ -43,7 +47,12 @@ def Story3(debug = False):
     out += "I hit the item box and I pulled a " + item1
     out += "\n"
     out += "I used it and won the race!"
+    out += "\n"
     out += "troy was so mad that he " + verb1
+    out += "\n"
+    out += "He " + verb2 + " my cabinets for " + food1
+    out += "\n"
+    out += "I " + verb1 + " him out of my " + place1
     
     
     
