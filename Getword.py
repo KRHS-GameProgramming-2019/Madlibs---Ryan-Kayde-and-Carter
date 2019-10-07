@@ -558,7 +558,7 @@ def getTrack(prompt, debug = False):
              "electrodome",
              "coconut mall",
              "tick tock clock",
-             "dk junlge parkway",
+             "dk jungle parkway",
              "moo moo meadows",
              "walugi pinball",
              "ghost valley 1",
@@ -617,7 +617,8 @@ def getItem(prompt, debug = False):
             "piranha plant",
             "super horn",
             "feather",
-            "boo"
+            "boo",
+            "mega mushroom",
              
                  
            

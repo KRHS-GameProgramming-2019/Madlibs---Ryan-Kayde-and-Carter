@@ -12,6 +12,7 @@ def Story3(debug = False):
     marioCharacter5 = getWord("Enter another character: ", debug)
     track1 = getTrack("Enter a track: ",debug)
     item1 = getItem("Enter an item: ",debug)
+    verb1 = getVerb("Enter an verb: ",debug)
     
     
     
@@ -40,6 +41,9 @@ def Story3(debug = False):
     out += "The final item box was going to be the deciding factor..."
     out += "\n"
     out += "I hit the item box and I pulled a " + item1
+    out += "\n"
+    out += "I used it and won the race!"
+    out += "troy was so mad that he " + verb1
     
     
     

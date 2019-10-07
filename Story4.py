@@ -16,7 +16,7 @@ def Story4(debug = False):
     food1 = getFood("Enter a food: ", debug)
     verb1 = getVerb("Enter a verb: ", debug)
 
-out = "\n"
+    out = "\n"
     out += "One day me and my friend, " + friendName1
     out += " we went to " + place1 
     out += "\n"
