@@ -1,3 +1,4 @@
+
 def getMenuOption(debug = False):
     if debug: print("getMenuOption Function")
     
@@ -275,6 +276,8 @@ def getYou(prompt, debug = False):
         elif word.lower() not in youtuber:
             goodInput = False
             print ("I don't know that youtuber try again")
+        if youtuber == "metaljesusrocks":
+            print (EasterEggScreen())
     return word
     
     

@@ -8,6 +8,7 @@ def Story2(debug = False):
     adjective1 = getAdjective("Enter an adjective: ", debug)
     adjective2 = getAdjective("Enter another adjective: ", debug)
     adjective3 = getAdjective("Enter another adjective: ", debug)
+    adjective4 = getAdjective("Enter another adjective: ", debug)
     place1 = getPlace("Enter a place: ", debug)
     food1 = getFood("Enter a food: ", debug)
     food2 = getFood("Enter another food: ", debug)
@@ -44,7 +45,7 @@ def Story2(debug = False):
     out += "\n"
     out += "I was " + adjective4 + ", I honestly don't even care though"
     out += "\n"
-    out += "He is just too salty that I " + verb3
+    out += "He is just too salty that I " + verb3 + " him"
 
     
 
