@@ -63,6 +63,7 @@ def getWord(prompt, debug = False):
             goodInput = False
             print ("Don't use language like that")
         
+        
     return word
 
 
@@ -172,45 +173,9 @@ swearList = ["poop",
 
 
 def getAdjective(prompt, debug = False):
-    if debug: print("getAdjective Function")
+    if debug: print("getWord Function")
     
     goodInput = False
-    
-    adjective = ["juicy",
-                 "sweaty",
-                 "black",
-                 "good",
-                 "new",
-                 "first",
-                 "little",
-                 "able",
-                 "best",
-                 "early",
-                 "easy",
-                 "important",
-                 "hard",
-                 "wet",
-                 "tall",
-                 "short",
-                 "mad",
-                 "raging",
-                 "sad",
-                 "peppa piggish",
-                 "bad",
-                 "great",
-                 "rubbery",
-                 "big",
-                 "red",
-                 "blue",
-                 "fast",
-                 "slow",
-                 "dry",
-                 "weak",
-                 "strong",
-                 "creamed",
-
-    
-    ]
     
     while not goodInput:
         word = input(prompt)
@@ -218,49 +183,14 @@ def getAdjective(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in adjective:
-            goodInput = False
-            print ("I don't know that adjective try again")
+        
     return word
 
 
 def getPlace(prompt, debug = False):
-    if debug: print("getPlace Function")
+    if debug: print("getWord Function")
     
     goodInput = False
-    
-    place = ["walmart",
-             "house",
-             "home",
-             "school",
-             "target",
-             "mcdonalds",
-             "burger king",
-             "pizza chef",
-             "market basket",
-             "frenchs park",
-             "french's park",
-             "wendys",
-             "dunkin donuts",
-             "paris",
-             "best buy",
-             "store",
-             "taco bell",
-             "bed bath and beyond",
-             "hospital",
-             "kmart",
-             "tj maxx",
-             "dicks sporting goods",
-             "dick's",
-             "bjs",
-             "pet smart",
-             "yo mama",
-             "your mama",
-             "white house",
-             
-             
-    
-    ]
     
     while not goodInput:
         word = input(prompt)
@@ -268,51 +198,14 @@ def getPlace(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in place:
-            goodInput = False
-            print ("I don't know that place try again")
+        
     return word
 
 
 def getFood(prompt, debug = False):
-    if debug: print("getFood Function")
+    if debug: print("getWord Function")
     
     goodInput = False
-    
-    food = ["pizza",
-            "burger",
-            "spaghetti",
-            "sandwich",
-            "turkey sandwich",
-            "ham sandwich",
-            "ice cream",
-            "ben and jerry's tonight dough",
-            "ben and jerry's",
-            "chips",
-            "cheez itz",
-            "fried chicken",
-            "chicken",
-            "waffles",
-            "pancakes",
-            "chocolate",
-            "tacos",
-            "burritos",
-            "cinnamon rolls",
-            "m'n'ms",
-            "french fries",
-            "brownies",
-            "cake",
-            "cupcakes",
-            "cleanex",
-            "bleach",
-            "tide pods",
-            "dog",
-            "cat",
-            "stromboli",
-            "ramen",
-            "pie",       
-    
-    ]
     
     while not goodInput:
         word = input(prompt)
@@ -320,9 +213,7 @@ def getFood(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in food:
-            goodInput = False
-            print ("I don't know that food try again")
+        
     return word
     
     
@@ -389,45 +280,9 @@ def getYou(prompt, debug = False):
     
     
 def getGame(prompt, debug = False):
-    if debug: print("getGame Function")
+    if debug: print("getWord Function")
     
     goodInput = False
-    
-    videogame = ["smash",
-                 "legend of zelda",
-                 "overwatch",
-                 "paladins",
-                 "fortnite",
-                 "minecraft",
-                 "call of duty",
-                 "hearthstone",
-                 "league of legends",
-                 "hotline miami",
-                 "gta",
-                 "mario",
-                 "kirby",
-                 "pac man",
-                 "ms pac man",
-                 "terraria",
-                 "breath of the wild",
-                 "fire emblem",
-                 "mario kart",
-                 "no man's sky",
-                 "animal crossing",
-                 "luigi's mansion",
-                 "pokemon",
-                 "moonlighter",
-                 "guitar hero",
-                 "splatoon",
-                 "splatoon 2",
-                 "star fox",
-                 "star fox zero",
-                 
-                
-            
-                
-    
-    ]
     
     while not goodInput:
         word = input(prompt)
@@ -435,9 +290,7 @@ def getGame(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Don't use language like that")
-        elif word.lower() not in videogame:
-            goodInput = False
-            print ("I don't know that videogame try again")
+        
     return word
     
     
@@ -472,61 +325,6 @@ def getDay(prompt, debug = False):
             
                 
 def getVerb(prompt, debug = False):
-    if debug: print("getPlace Function")
-    
-    goodInput = False
-    
-    verb = ["attacked",
-            "smiled",
-            "punched",
-            "destroyed",
-            "crushed",
-            "ran",
-            "locked",
-            "saw",
-            "thought",
-            "licked",
-            "sloppy toppied",
-            "grabbed",
-            "swam",
-            "kicked",
-            "asked",
-            "attached",
-            "questioned",
-            "attacked",
-            "pondered",
-            "smoked",
-            "strolled",
-            "stoned",
-            "baked",
-            "burnt",
-            "located",
-            "creamed",
-            "beat",
-            "smacked",
-            "spanked",
-            "spooked",
-            "slapped",
-            "rocks",
-            "said",
-            "had",
-            "gone",
-            
-    
-    ]
-    
-    while not goodInput:
-        word = input(prompt)
-        goodInput = True
-        if isSwear(word, debug):
-            goodInput = False
-            print ("Don't use language like that")
-        elif word.lower() not in verb:
-            goodInput = False
-            print ("I don't know that verb, try again")
-    return word
-    
-def getWord(prompt, debug = False):
     if debug: print("getWord Function")
     
     goodInput = False
@@ -538,7 +336,7 @@ def getWord(prompt, debug = False):
             goodInput = False
             print ("Don't use language like that")
         
-    return word     
+    return word
 
 
 
@@ -558,7 +356,7 @@ def getTrack(prompt, debug = False):
              "electrodome",
              "coconut mall",
              "tick tock clock",
-             "dk junlge parkway",
+             "dk jungle parkway",
              "moo moo meadows",
              "walugi pinball",
              "ghost valley 1",
@@ -617,7 +415,8 @@ def getItem(prompt, debug = False):
             "piranha plant",
             "super horn",
             "feather",
-            "boo"
+            "boo",
+            "mega mushroom",
              
                  
            
