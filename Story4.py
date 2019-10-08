@@ -4,7 +4,7 @@ def Story4(debug = False):
     if debug: print("Story4 Function")
     
     print("\n")
-    friendName1 = getWord("Enter a name: ", debug)
+    friendName1 = getName("Enter a name: ", debug)
     place2 = getPlace("Enter a place: ", debug)
     adjective2 = getAdjective("Enter adjective: ", debug)
     adjective3 = getAdjective("Enter another adjective: ", debug)
@@ -33,3 +33,32 @@ def Story4(debug = False):
     out += "\n"
     out += "My friend however, wanted to watch " + youtuber2
     out += "\n"
+    out += "We decided to play " + videoGame1 + " instead."
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return out
