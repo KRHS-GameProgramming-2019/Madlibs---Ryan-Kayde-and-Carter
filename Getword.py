@@ -71,7 +71,7 @@ def getWord(prompt, debug = False):
     
     
     
-
+#Written by Kaden/Ryan
 def getSport(prompt, debug = False):
     if debug: print("getSport Function")
     
@@ -125,7 +125,7 @@ def getSport(prompt, debug = False):
     
     
     
-    
+#Written by Kaden/Ryan   
 def isSwear(word, debug = False):
     if debug: print("isSwear Function")
     if word.lower() in swearList:
@@ -172,7 +172,7 @@ swearList = ["poop",
             
 ]
 
-
+#Written by Kaden/Ryan 
 def getAdjective(prompt, debug = False):
     if debug: print("getWord Function")
     
@@ -187,7 +187,7 @@ def getAdjective(prompt, debug = False):
         
     return word
 
-
+#Written by Kaden/Ryan 
 def getPlace(prompt, debug = False):
     if debug: print("getWord Function")
     
@@ -202,7 +202,7 @@ def getPlace(prompt, debug = False):
         
     return word
 
-
+#Written by Kaden/Ryan 
 def getFood(prompt, debug = False):
     if debug: print("getWord Function")
     
@@ -218,7 +218,7 @@ def getFood(prompt, debug = False):
     return word
     
     
-    
+#Written by Kaden/Ryan 
 def getYou(prompt, debug = False):
     if debug: print("getYou Function")
     
@@ -281,7 +281,7 @@ def getYou(prompt, debug = False):
     return word
     
     
-    
+#Written by Kaden/Ryan     
 def getGame(prompt, debug = False):
     if debug: print("getWord Function")
     
@@ -297,7 +297,7 @@ def getGame(prompt, debug = False):
     return word
     
     
-    
+#Written by Ryan     
 def getDay(prompt, debug = False):
     if debug: print("getDay Function")
     
@@ -326,7 +326,7 @@ def getDay(prompt, debug = False):
                  
                 
             
-                
+#Written by Kaden/Ryan                 
 def getVerb(prompt, debug = False):
     if debug: print("getWord Function")
     
@@ -344,7 +344,7 @@ def getVerb(prompt, debug = False):
 
 
 
-
+#Written by Ryan 
 def getTrack(prompt, debug = False):
     if debug: print("getTrack Function")
     
@@ -389,7 +389,7 @@ def getTrack(prompt, debug = False):
     
     
     
-    
+#Written by Ryan     
 def getItem(prompt, debug = False):
     if debug: print("getItem Function")
     
