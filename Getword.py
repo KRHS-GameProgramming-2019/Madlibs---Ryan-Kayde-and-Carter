@@ -475,3 +475,20 @@ def getItem(prompt, debug = False):
             goodInput = False
             print ("I don't know that item try again")
     return word
+    
+#written by Carter
+def getMonster(prompt, debug = False):
+    if debug: print("getWord Function")
+    
+    goodInput = False
+
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word, debug):
+            goodInput = False
+            print ("Thats not a monster")
+        elif word.lower():
+            goodInput = False
+    return word
+    
