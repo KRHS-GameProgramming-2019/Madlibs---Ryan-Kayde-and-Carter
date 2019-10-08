@@ -86,6 +86,25 @@ def getName(prompt, debug = False):
     return word
 
 
+def getSpecificName(prompt, debug = False):
+    if debug: print("getSpecificName Function")
+    
+    goodInput = False
+    
+    specificName = ["b3gg3r",
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in specificName:
+            goodInput = False
+            print ("That's not my name idiot, try again")
+    return word
+
 
     
     
