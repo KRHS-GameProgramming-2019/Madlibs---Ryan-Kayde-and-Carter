@@ -48,11 +48,11 @@ def MainMenu(debug = False):
     return s
     
 def EasterEggScreen(debug = False):
-    if debug: print("MainMenu Function")
+    if debug: print("EasterEggScreen Function")
     
     s =  "--------------------------------------------------------------------------------\n"
     s += "|                                                                              |\n"
-    s += "|                             M a d l i b s                                    |\n"
+    s += "|                                                                              |\n"
     s += "|                                                                              |\n"
     s += "|                                                                              |\n"
     s += "|                                                                              |\n"
