@@ -1,4 +1,4 @@
-
+from MadlibsScreens import *
 def getMenuOption(debug = False):
     if debug: print("getMenuOption Function")
     
@@ -85,6 +85,25 @@ def getName(prompt, debug = False):
         
     return word
 
+
+def getSpecificName(prompt, debug = False):
+    if debug: print("getSpecificName Function")
+    
+    goodInput = False
+    
+    specificName = ["b3gg3r",
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in specificName:
+            goodInput = False
+            print ("That's not my name idiot, try again")
+    return word
 
 
     
@@ -295,7 +314,7 @@ def getYou(prompt, debug = False):
         elif word.lower() not in youtuber:
             goodInput = False
             print ("I don't know that youtuber try again")
-        if youtuber == "metaljesusrocks":
+        elif word == "metaljesusrocks":
             print (EasterEggScreen())
     return word
     
