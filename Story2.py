@@ -15,6 +15,7 @@ def Story2(debug = False):
     verb1 = getVerb("Enter a verb: ", debug)
     verb2 = getVerb("Enter another verb: ", debug)
     verb3 = getVerb("Enter another verb: ", debug)
+    verb4 = getVerb("Enter another verb (future tense): ", debug)
     game1 = getGame("Enter a game: ", debug)
     
     
@@ -46,7 +47,11 @@ def Story2(debug = False):
     out += "I was " + adjective4 + ", I honestly don't even care though"
     out += "\n"
     out += "He is just too salty that I " + verb3 + " him"
-
+    out += "\n"
+    out += "I am kind of upset that " + friendName1 + " isn't my friend"
+    out += "\n"
+    out += "But you know what... " + verb4 + " 'em!"
+    
     
 
     
