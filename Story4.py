@@ -7,6 +7,7 @@ def Story4(debug = False):
     friendName1 = getName("Enter a name: ", debug)
     place2 = getPlace("Enter a place: ", debug)
     adjective2 = getAdjective("Enter adjective: ", debug)
+    monster1 = getMonster("Enter monster: ", debug)
     adjective3 = getAdjective("Enter another adjective: ", debug)
     food1 = getFood("Enter a food: ", debug)
     place2 = getPlace("Enter another place: ", debug)
@@ -15,10 +16,10 @@ def Story4(debug = False):
     youtuber2 = getYou("Enter another youtuber: ", debug)
     
     out = "\n"
-    out += "we were in the darkness of the night, it got so dark it led my friend and I apart, " + friendName1
-    out += " we got spereated and I found myself in " + place2 
+    out += "" + friendName1 + " and I were in the darkness of the night, it got so dark it led us apart, "
+    out += " we got spereated and I found myself in the " + place2 
     out += "\n"
-    out += "We were having so much fun!"
+    out += "I was so scared, I thought I saw him but it was a " + monster + " instead"
     out += "\n"
     out += "Unfortunately,  " + adjective2
     out += "\n"
@@ -33,8 +34,6 @@ def Story4(debug = False):
     out += "\n"
     out += "My friend however, wanted to watch " + youtuber2
     out += "\n"
-    out += "We decided to play " + videoGame1 + " instead."
-    
     
     
     
