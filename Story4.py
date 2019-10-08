@@ -13,9 +13,7 @@ def Story4(debug = False):
     food1 = getFood("Enter a food: ", debug)
     youtuber1 = getYou("Enter a youtuber: ", debug)
     youtuber2 = getYou("Enter another youtuber: ", debug)
-    food1 = getFood("Enter a food: ", debug)
-    verb1 = getVerb("Enter a verb: ", debug)
-
+    
     out = "\n"
     out += "we were in the darkness of the night, it got so dark it led my friend and I apart, " + friendName1
     out += " we got spereated and I found myself in " + place2 
@@ -24,7 +22,7 @@ def Story4(debug = False):
     out += "\n"
     out += "Unfortunately,  " + adjective2
     out += "\n"
-    out += "This made our game " + adjective2
+    out += "This made our game " + adjective3
     out += "\n"
     out += "Afterwards, we crawled to " + place2
     out += "\n"
