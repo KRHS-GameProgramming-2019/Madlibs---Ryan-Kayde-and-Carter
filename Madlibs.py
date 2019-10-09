@@ -40,7 +40,7 @@ def Madlibs(debug = False):
             print(Story4(debug))
             print("\n")
             input("Press enter to continue")
-        elif choice == "5":
+        elif choice == "stonks":
             print(EasterEggStory(debug))
             print("\n")
             input("Press enter to continue")
