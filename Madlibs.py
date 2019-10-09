@@ -45,4 +45,3 @@ def Madlibs(debug = False):
             print("\n")
             input("Press enter to continue")
 Madlibs(False)
-
