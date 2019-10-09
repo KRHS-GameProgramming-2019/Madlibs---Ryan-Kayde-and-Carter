@@ -43,8 +43,8 @@ def getMenuOption(debug = False):
         option == "Storyfour"):
             option = "4"
             goodInput = True
-        elif (option == "5"):
-            option = "5"
+        elif (option == "stonks"):
+            option = "stonks"
             goodInput = True
             
         else:
@@ -91,7 +91,7 @@ def getSpecificName(prompt, debug = False):
     
     goodInput = False
     
-    specificName = ["b3gg3r",
+    specificName = ["k3arsarg3",
     ]
     
     while not goodInput:
@@ -102,7 +102,28 @@ def getSpecificName(prompt, debug = False):
             print ("Don't use language like that")
         elif word.lower() not in specificName:
             goodInput = False
-            print ("That's not my name idiot, try again")
+            print ("That's not my name, try again")
+    return word
+    
+    
+    
+def getSpecificConsole(prompt, debug = False):
+    if debug: print("getSpecificName Function")
+    
+    goodInput = False
+    
+    specificConsole = ["sega dreamcast",
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Don't use language like that")
+        elif word.lower() not in specificConsole:
+            goodInput = False
+            print ("YOU WILL NEVER GUESS IT, try again!")
     return word
 
 
