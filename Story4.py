@@ -12,16 +12,14 @@ def Story4(debug = False):
     food1 = getFood("Enter a food: ", debug)
     place2 = getPlace("Enter another place: ", debug)
     food1 = getFood("Enter a food: ", debug)
-    youtuber1 = getYou("Enter a youtuber: ", debug)
-    youtuber2 = getYou("Enter another youtuber: ", debug)
     
     out = "\n"
-    out += "" + friendName1 + " and I were in the darkness of the night, it got so dark it led us apart, "
-    out += " we got spereated and I found myself in the " + place2 
+    out += "" + friendName1 + " and I were in the darkness of the night, it got so dark it led us apart, \n"
+    out += "we got spereated and I found myself in the " + place2 
     out += "\n"
-    out += "I was so scared, I thought I saw him but it was a " + monster + " instead"
+    out += "I was so scared, I thought I saw him but it was a " + monster1 + " instead"
     out += "\n"
-    out += "I called his name and the dark figure turned around . . .,  "
+    out += "I called his name and the dark figure turned around . . .  "
     out += "\n"
     out += "right as it glared my way, I saw its " + adjective3 + " eyes "
     out += "\n"
@@ -29,9 +27,12 @@ def Story4(debug = False):
     out += "\n"
     out += "then the monster stopped because it smelled something that " + friendName1 + " was cooking " 
     out += "\n"
-    out += "the monster smelled a delicouse white bread, butter, vienna suasage, dorito, cadbury creamegg, reeses penut butter sandwich." 
+    out += "the monster smelled a delicouse \nwhite bread, butter, vienna suasage, dorito, cadbury creamegg, reeses penut butter sandwich." 
     out += "\n"
-    
+    out += "the " + monster1 + " whipped around charged at " + friendName1 + "\n" + "quickley " + friendName1 + " dove out of the way, and the " + monster1 + " anihilated the sandwich"
+    out += "\n"
+    out += "" + friendName1 + "ran over to me and we escaped from the DANK cave . . ."
+    out += "\n"
     
     
     
