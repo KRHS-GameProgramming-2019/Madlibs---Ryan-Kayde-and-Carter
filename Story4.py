@@ -4,7 +4,7 @@ def Story4(debug = False):
     if debug: print("Story4 Function")
     
     print("\n")
-    friendName1 = getName("Enter a name: ", debug)
+    friendName1 = getName("Enter your friends name: ", debug)
     place2 = getPlace("Enter a place: ", debug)
     adjective2 = getAdjective("Enter adjective: ", debug)
     monster1 = getMonster("Enter monster: ", debug)
@@ -12,29 +12,27 @@ def Story4(debug = False):
     food1 = getFood("Enter a food: ", debug)
     place2 = getPlace("Enter another place: ", debug)
     food1 = getFood("Enter a food: ", debug)
-    youtuber1 = getYou("Enter a youtuber: ", debug)
-    youtuber2 = getYou("Enter another youtuber: ", debug)
     
     out = "\n"
-    out += "" + friendName1 + " and I were in the darkness of the night, it got so dark it led us apart, "
-    out += " we got spereated and I found myself in the " + place2 
+    out += "" + friendName1 + " and I were in the darkness of the night, it got so dark it led us apart, \n"
+    out += "we got spereated and I found myself in the " + place2 
     out += "\n"
-    out += "I was so scared, I thought I saw him but it was a " + monster + " instead"
+    out += "I was so scared, I thought I saw him but it was a " + monster1 + " instead"
     out += "\n"
-    out += "Unfortunately,  " + adjective2
+    out += "I called his name and the dark figure turned around . . .  "
     out += "\n"
-    out += "This made our game " + adjective3
+    out += "right as it glared my way, I saw its " + adjective3 + " eyes "
     out += "\n"
-    out += "Afterwards, we crawled to " + place2
+    out += "it started towards " + place2 + " where I was hiding "
     out += "\n"
-    out += "We bought " + food1
+    out += "then the monster stopped because it smelled something that " + friendName1 + " was cooking " 
     out += "\n"
-    out += "We went back to my " + place2
-    out += " and watched my favorite youtuber, " + youtuber1
+    out += "the monster smelled a delicouse \nwhite bread, butter, vienna suasage, dorito, cadbury creamegg, reeses penut butter sandwich." 
     out += "\n"
-    out += "My friend however, wanted to watch " + youtuber2
+    out += "the " + monster1 + " whipped around charged at " + friendName1 + "\n" + "quickley " + friendName1 + " dove out of the way, and the " + monster1 + " anihilated the sandwich"
     out += "\n"
-    
+    out += "" + friendName1 + "ran over to me and we escaped from the DANK cave . . ."
+    out += "\n"
     
     
     

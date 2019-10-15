@@ -503,13 +503,60 @@ def getMonster(prompt, debug = False):
     
     goodInput = False
 
+    monsters = ["angel",
+                "archon",
+                "basilisk",
+                "beholder",
+                "bulette",
+                "cyclops",
+                "death knight",
+                "demon",
+                "devil",
+                "dragon",
+                "dragonborn",
+                "drake",
+                "drider",
+                "dryad",
+                "duergar",
+                "dwarf",
+                "elemental",
+                "elf",
+                "gargoyle",
+                "ghoul",
+                "gnome",
+                "goblin",
+                "golem",
+                "hag",
+                "human",
+                "lizalfos",
+                "bakoblin",
+                "medusa",
+                "minotaur",
+                "mummy",
+                "ogre",
+                "orc",
+                "octorok",
+                "moblin",
+                "wizrobe",
+                "lynel",
+                "chuchu",
+                "guardian",
+                "keese",
+                "pebblit",
+                "yiga",
+                "ghost",
+                "wizard",
+                "seproth",
+                ]
     while not goodInput:
         word = input(prompt)
         goodInput = True
         if isSwear (word, debug):
             goodInput = False
             print ("Thats not a monster")
-        elif word.lower():
-            goodInput = False
+        elif word.lower()in monsters:
+            
+            goodInput = True
+    
     return word
     
