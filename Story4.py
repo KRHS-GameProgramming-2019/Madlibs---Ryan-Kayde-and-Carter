@@ -1,3 +1,4 @@
+#Carter Hasey
 from Getword import *
 
 def Story4(debug = False):
