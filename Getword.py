@@ -85,7 +85,7 @@ def getName(prompt, debug = False):
         
     return word
 
-
+#Written by Ryan
 def getSpecificName(prompt, debug = False):
     if debug: print("getSpecificName Function")
     
@@ -106,7 +106,7 @@ def getSpecificName(prompt, debug = False):
     return word
     
     
-    
+#Written by Ryan
 def getSpecificConsole(prompt, debug = False):
     if debug: print("getSpecificName Function")
     

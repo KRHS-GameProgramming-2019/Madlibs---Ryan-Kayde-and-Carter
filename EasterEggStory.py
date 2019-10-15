@@ -1,3 +1,4 @@
+#Made by Ryan St. Lawrence
 from Getword import *
 
 def EasterEggStory(debug = False):
